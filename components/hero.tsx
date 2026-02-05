@@ -2,7 +2,6 @@
 
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Play, MapPin } from "lucide-react"
-import Image from "next/image"
 
 export function Hero() {
   const scrollToContact = () => {
@@ -88,23 +87,20 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Vending Machine Image */}
-          <div className="relative hidden lg:block">
-            <div className="relative aspect-[3/4] rounded-3xl overflow-hidden bg-card border border-border">
-              <Image
-                src="/images/image.png"
-                alt="Ballbox Vending Machine"
-                fill
-                className="object-contain p-8"
-                priority
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background/90 to-transparent p-6">
-                <p className="text-primary font-bold text-lg">Juga Ahora, Juga Mejor</p>
-                <p className="text-sm text-muted-foreground">Pelotas de todas las marcas, disponibles 24/7</p>
+          {/* Hero Video */}
+          <div className="hidden lg:flex justify-center self-start">
+            <div className="relative">
+              <div className="aspect-[9/16] w-[320px] xl:w-[360px] rounded-3xl overflow-hidden bg-black shadow-2xl">
+                <video
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="w-full h-full object-cover"
+                >
+                  <source src="/videos/hero.mp4" type="video/mp4" />
+                </video>
               </div>
-            </div>
-            <div className="absolute -bottom-4 -left-4 bg-primary text-primary-foreground px-5 py-3 rounded-2xl text-sm font-semibold shadow-lg">
-              Desde $3.500 ARS
             </div>
           </div>
         </div>

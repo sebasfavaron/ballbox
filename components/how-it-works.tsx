@@ -43,7 +43,7 @@ export function HowItWorks() {
           {steps.map((step, index) => (
             <div key={step.number} className="relative">
               <div className="p-6 rounded-2xl bg-background border border-border h-full">
-                <div className="text-5xl font-bold text-primary/20 mb-4">
+                <div className="text-5xl font-black text-primary mb-4 drop-shadow-[0_0_24px_rgba(196,214,0,0.4)]">
                   {step.number}
                 </div>
                 <h3 className="text-lg font-semibold text-foreground mb-3">

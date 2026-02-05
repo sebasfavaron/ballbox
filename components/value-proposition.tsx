@@ -28,9 +28,6 @@ export function ValueProposition() {
     <section id="propuesta" className="py-24 bg-card">
       <div className="container px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <p className="text-sm font-medium text-primary uppercase tracking-wider mb-4">
-            La verdad sobre Ballbox
-          </p>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6 text-balance">
             No reemplazamos tu negocio, <span className="text-primary">lo potenciamos</span>
           </h2>
