@@ -13,6 +13,10 @@ const faqs = [
     answer: "La instalación es completamente gratuita para el club. Nosotros asumimos toda la inversión inicial, incluyendo la máquina, la instalación y la puesta en marcha. El club no tiene ningún costo en pesos.",
   },
   {
+    question: "¿Quién paga la logística para traer la máquina?",
+    answer: "El costo de la logística para trasladar la máquina hasta el club corre por cuenta del club. Nosotros nos encargamos de la instalación y puesta en marcha una vez recibida.",
+  },
+  {
     question: "¿Quién se encarga del mantenimiento y reposición de stock?",
     answer: "Nuestro equipo se encarga de todo. Realizamos visitas periódicas para reponer el stock de pelotas y accesorios, y ofrecemos soporte técnico 24/7 en caso de cualquier incidencia. El club no dedica tiempo a la gestión.",
   },
@@ -22,23 +26,23 @@ const faqs = [
   },
   {
     question: "¿Cuánto cuestan las pelotas en la máquina?",
-    answer: "Los precios varían según la marca, desde $3.500 ARS hasta $8.000 ARS aproximadamente. El precio es competitivo con el mercado y el club puede definir junto a nosotros la política de precios.",
+    answer: "Los precios varían según la marca, desde $7.500 ARS hasta $20.000 ARS aproximadamente. El precio es competitivo con el mercado y el club puede definir junto a nosotros la política de precios.",
   },
   {
     question: "¿Cómo funciona el sistema de publicidad?",
-    answer: "La máquina incluye una pantalla HD que muestra publicidad de marcas deportivas y negocios locales. El club recibe una comisión mensual fija de aproximadamente $50.000 ARS por las impresiones publicitarias, sin tener que gestionar nada.",
+    answer: "La máquina incluye una pantalla HD que muestra publicidad de marcas deportivas y negocios locales. El club recibe una comisión mensual fija de aproximadamente $100.000 ARS por las impresiones publicitarias, sin tener que gestionar nada.",
   },
   {
     question: "¿Qué métodos de pago aceptan las máquinas?",
-    answer: "Nuestras máquinas aceptan múltiples formas de pago: tarjeta de crédito/débito, pago contactless (NFC), MercadoPago, billeteras virtuales y efectivo. Facilitamos la compra a todos los jugadores.",
+    answer: "Nuestras máquinas aceptan MercadoPago, billeteras virtuales, utilizando QR. Facilitamos la compra a todos los jugadores.",
   },
   {
     question: "¿Cómo puedo ver las ventas y estadísticas de mi club?",
-    answer: "Proporcionamos acceso a un portal web y una app móvil donde puedes consultar en tiempo real las ventas, ingresos por publicidad, productos más vendidos y otras métricas relevantes.",
+    answer: "Proporcionamos acceso a un portal web donde puedes consultar en tiempo real las ventas, ingresos por publicidad, productos más vendidos y otras métricas relevantes.",
   },
   {
     question: "¿Cuánto espacio necesita la máquina?",
-    answer: "Nuestras máquinas tienen un diseño compacto de aproximadamente 180cm x 80cm x 70cm. Nuestro equipo te ayudará a encontrar la ubicación óptima en tu club para maximizar la visibilidad.",
+    answer: "Nuestras máquinas tienen un diseño compacto de 1m x 2m x 1m. Nuestro equipo te ayudará a encontrar la ubicación óptima en tu club para maximizar la visibilidad.",
   },
   {
     question: "¿Qué pasa si la máquina tiene una avería?",

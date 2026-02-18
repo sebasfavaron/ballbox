@@ -44,7 +44,7 @@ export function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Button size="lg" className="text-base px-8 py-6 rounded-full bg-primary text-primary-foreground hover:bg-primary/90" onClick={scrollToContact}>
-                Quiero que me contacten
+                Contactanos
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button size="lg" variant="outline" className="text-base px-8 py-6 rounded-full border-primary/30 text-foreground hover:bg-primary/10 bg-transparent" onClick={scrollToContact}>

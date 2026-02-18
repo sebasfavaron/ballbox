@@ -16,6 +16,10 @@ const navLinks = [
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
+  const scrollToContact = () => {
+    document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" })
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <nav className="container mx-auto px-4 md:px-6">
@@ -47,7 +51,7 @@ export function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
+            <Button className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90" onClick={scrollToContact}>
               Solicitar instalación
             </Button>
           </div>
@@ -81,7 +85,7 @@ export function Navbar() {
                   {link.name}
                 </a>
               ))}
-              <Button className="rounded-full mt-2 bg-primary text-primary-foreground hover:bg-primary/90">
+              <Button className="rounded-full mt-2 bg-primary text-primary-foreground hover:bg-primary/90" onClick={scrollToContact}>
                 Solicitar instalación
               </Button>
             </div>
