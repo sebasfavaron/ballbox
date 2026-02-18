@@ -33,7 +33,7 @@ export function Advertising() {
 
   return (
     <section id="publicidad" className="py-24 bg-background">
-      <div className="container px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div>

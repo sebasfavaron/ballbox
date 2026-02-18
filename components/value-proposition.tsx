@@ -26,7 +26,7 @@ const features = [
 export function ValueProposition() {
   return (
     <section id="propuesta" className="py-24 bg-card">
-      <div className="container px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6 text-balance">
             No reemplazamos tu negocio, <span className="text-primary">lo potenciamos</span>

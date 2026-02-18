@@ -15,7 +15,7 @@ export function Hero() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(196,214,0,0.05)_0%,transparent_50%)]" />
       </div>
 
-      <div className="container relative z-10 px-4 md:px-6 py-12">
+      <div className="container mx-auto relative z-10 px-4 md:px-6 py-12">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8 w-fit">

@@ -37,7 +37,7 @@ const playerBenefits = [
 export function Benefits() {
   return (
     <section id="beneficios" className="py-24 bg-background">
-      <div className="container px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6 text-balance">
             Entendemos las dudas

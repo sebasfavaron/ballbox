@@ -57,7 +57,7 @@ const faqs = [
 export function FAQ() {
   return (
     <section id="faq" className="py-24 bg-card">
-      <div className="container px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6">
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <p className="text-sm font-medium text-primary uppercase tracking-wider mb-4">
